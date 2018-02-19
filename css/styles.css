@@ -18,6 +18,12 @@ header div {
   background-color: white;
   margin: 6px 0;
 }
+.padding-0{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	padding-right: 0px;
+}
 #foods{
   background-image: url("../images/backgrounds/foodsBg.jpg");
   height: 55vh;
@@ -100,13 +106,28 @@ transition: .5s ease;
     border: 1px solid #ccc;
     border-top: none;
 }
-.frame img {
+
+.frame {
   background-color: #FEFEFE;
-  width: auto;
-  height: auto;
   padding: 20px;
-  box-shadow: 0px 0px 5px 0px #AAA;
+  box-shadow: 0px 0px 50px 0px #AAA;
+  height: 10vh;
 }
+.frame {
+  background-color: #FEFEFE;
+  padding: 20px;
+  box-shadow: 0px 0px 50px 0px #AAA;
+
+}
+#frame3 {
+  background-color: #FEFEFE;
+  padding: 20px;
+  box-shadow: 0px 0px 50px 0px #AAA;
+  height: 30vh;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
 #box1{
   padding: inherit;
 }
