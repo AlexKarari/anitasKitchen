@@ -28,6 +28,11 @@ header div {
   background-image: url("../images/backgrounds/foodsBg.jpg");
   height: 55vh;
 }
+#foods .tab{
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
 .overlay-mini {
 position: absolute;
 bottom: 0;
@@ -107,22 +112,26 @@ transition: .5s ease;
     border-top: none;
 }
 
-.frame {
+#frame1 {
   background-color: #FEFEFE;
-  padding: 20px;
-  box-shadow: 0px 0px 50px 0px #AAA;
-  height: 10vh;
+  padding: 0px;
+  padding-top: 16px;
+  box-shadow: 0px 0px 40px 0px #AAA;
+  height: 54vh;
+  width: 93%;
 }
-.frame {
+#frame2 {
   background-color: #FEFEFE;
-  padding: 20px;
-  box-shadow: 0px 0px 50px 0px #AAA;
+  padding: 10px;
+  box-shadow: 0px 0px 40px 0px #AAA;
+  height: 52vh;
+  width: 93%;
 
 }
 #frame3 {
   background-color: #FEFEFE;
   padding: 20px;
-  box-shadow: 0px 0px 50px 0px #AAA;
+  box-shadow: 0px 0px 40px 0px #AAA;
   height: 30vh;
   margin-top: 6%;
   margin-bottom: 6%;
