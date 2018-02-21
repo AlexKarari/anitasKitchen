@@ -37,7 +37,8 @@ header div {
 }
 /* Style buttons that are used to open the tab content */
 .tab button {
-    background-color: inherit;
+text-align: center;
+background-color: inherit;
     width:70%
     float: inherit;
     border: none;
@@ -90,13 +91,14 @@ transition: .5s ease;
 	color: #000000;
 }
 .txtt {
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-left: 80px;
-	color: white;
+	color: black;
 	font-size:40px;
+  border
 }
 .txt{
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-left: 80px;
 	color:black;
 	font-size:40px;
@@ -159,9 +161,15 @@ form{
 #footsect{
   background-color: #F15A29;
   text-align: center;
+  height: 30vh;
+  padding-top: 35px;
 }
 #footsect p{
   color: white;
+}
+#footsect h6{
+  color: white;
+  padding-top: 40px;
 }
 .form-group{
   align-content: center;
