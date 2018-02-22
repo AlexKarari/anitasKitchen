@@ -66,6 +66,9 @@ background-color: inherit;
   margin-right: 100px;
 
 }
+#move{
+  margin-left: 20%;
+}
 
 .overlay-mini {
 position: absolute;
@@ -92,17 +95,24 @@ transition: .5s ease;
 	color: #000000;
 }
 .txtt {
-	padding-top: 20px;
-	padding-left: 80px;
+	margin: 0px;
 	color: black;
 	font-size:40px;
-  border
+  background-color:  #F15A29;
+  margin: 0px;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 39px;
+
 }
 .txt{
-	padding-top: 20px;
-	padding-left: 80px;
+  margin: auto;
 	color:black;
 	font-size:40px;
+  background-color:  #e3e3e3;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 .txttt {
 	padding-top: 90px;
@@ -149,8 +159,10 @@ transition: .5s ease;
 form{
   text-align: center;
 }
-.form-control{
-  width: 100px;
+input {
+  display: block;
+  width: 170px;
+  float: left;
 }
 .subscription{
   background-image: url("../images/backgrounds/subscribe.jpg");
@@ -163,7 +175,9 @@ form{
 .btn{
   background-color: #F15A29;
   display: block;
-  width: 100px;
+  width: 200px;
+  text-align: center;
+  float:inherit;
 }
 #footsect{
   background-color: #F15A29;
